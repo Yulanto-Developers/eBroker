@@ -24,7 +24,7 @@ const nextConfig = {
     buildActivity: false,
   },
 };
-if (process.env.NEXT_PUBLIC_SEO === "false") {
+if (false) {
   nextConfig.output = "export";
   nextConfig.exportPathMap = async (
     defaultPathMap,
