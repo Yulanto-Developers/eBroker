@@ -45,7 +45,7 @@ const AgentHorizontalCard = ({ agentDetails, isFeatureAvailable = false, setShow
       link: twitter_id && twitter_id !== "null" ? twitter_id : null,
     },
     {
-      icon: <FaYoutube className="h-4 w-4" />,
+      icon: <FaYoutube    className="h-3 w-4" />,
       link: youtube_id && youtube_id !== "null" ? youtube_id : null,
     },
     {
